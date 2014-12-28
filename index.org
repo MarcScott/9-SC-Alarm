@@ -9,7 +9,7 @@
 #+BEGIN_HTML
 <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-        <a href="https://github.com/MarcScott/7-CS-Internet">Fork me on GitHub</a>
+        <a href="https://github.com/MarcScott/9-SC-Alarm">Fork me on GitHub</a>
     </div>
 </div>
 #+END_HTML

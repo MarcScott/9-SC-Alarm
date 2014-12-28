@@ -1,7 +1,7 @@
 #+STARTUP:indent
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-#+HTML_HEAD_EXTRA: <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
-#+HTML_HEAD_EXTRA: <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil
 
@@ -98,30 +98,59 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- In this project you are going to design and build an alarm.
-- The alarm will respond to light levels in its environment and will sound if it detects a change.
-- This means the alarm could be placed in a drawer, jewellery box or cupboard and if they are opened it will sound.
+
 ** Research It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: research
 :END:
-- Conduct some research to see if there are any similar alarms already available on the market.
-- The alarm needs to meet the following criteria
-  1. Responds to changes in light
-  2. Responds with audiably (a buzzer for instance)
-  3. Responds with visually (lights for instance)
-  4. Has the ability to be armed and disarmed.
-** Badge It - Silver
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Use your research to fill in the table below.
-| <c>        | <c>  | <c>   | <c>        | <c>        | <c>        | <c>        |
-| Product ID | Link | Image | Criteria 1 | Criteria 2 | Criteria 3 | Criteria 4 |
-|------------+------+-------+------------+------------+------------+------------|
-| 1          |      |       |            |            |            |            |
-| 2          |      |       |            |            |            |            |
-| 3          |      |       |            |            |            |            |
 
-
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
 

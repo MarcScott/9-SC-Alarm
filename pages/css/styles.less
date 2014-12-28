@@ -4,20 +4,20 @@
 @scheme-color-secondary: #d5ffc0;
 */
 /*YEAR 7 Colours - Systems & Control*/
-
-/*@scheme-color: #A30000;
-@scheme-color-secondary: #E0E7F5;*/
-
+/*
+@scheme-color: #A30000;
+@scheme-color-secondary: #E0E7F5;
+*/
 
 /*YEAR 8 Colours*/
 /*
-@scheme-color: #741371;
-@scheme-color-secondary:# E5DCE9;
+@scheme-color: #E8520C;
+@scheme-color-secondary: #FF9F00;
 */
 /*YEAR 9 Colours*/
 
-@scheme-color: #D12229;
-@scheme-color-secondary: #F7E4DC;
+@scheme-color: #FFCC00;
+@scheme-color-secondary: #FEEB75;
 
 @scheme-font: 'Ubuntu', Helvetica, Arial, sans-serif;
 @code-font: 'Ubuntu mono', "Courier New", Courier, monospace;
@@ -179,7 +179,6 @@ html {
 
 body {
     max-width: 800px;
-    margin: 15px auto;
     background: #FFFFFF;
     text-align: left;
     padding: 20px;
@@ -187,6 +186,7 @@ body {
     margin: 20px auto;
     clear:both;
 }
+
 
 code {
     border-radius: 4px 4px 4px 4px;
@@ -212,48 +212,6 @@ pre {
     -webkit-hyphens: none;
     -moz-hyphens: none;
     hyphens: none;
-}
-
-
-/* TOC */
-#table-of-contents {
-    z-index: 100;
-    font-size: 10pt;
-    position: fixed;
-    right: 0em;
-    top: 0em;
-    background: white;
-    -webkit-box-shadow: 0 0 0.5em #777777;
-    -moz-box-shadow: 0 0 0.5em #777777;
-    -webkit-border-bottom-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    text-align: right;
-    /* ensure doesn't flow off the screen when expanded */
-    max-height: 80%;
-    overflow: auto; 
-}
-#table-of-contents h2 {
-    font-size: 10pt;
-    max-width: 9em;
-    font-weight: normal;
-    padding-left: 0.5em;
-    padding-left: 0.5em;
-    padding-top: 0.05em;
-    padding-bottom: 0.05em; 
-}
-
-#table-of-contents #text-table-of-contents {
-    display: none;
-    text-align: left; 
-}
-#table-of-contents:hover #text-table-of-contents {
-    display: block;
-    padding: 0.5em;
-    margin-top: -1.5em; 
-}
-
-#table-of-contents #text-table-of-contents ul {
-    list-style-position: outside;
 }
 
 /* CSS For Lesson*/
@@ -376,7 +334,7 @@ h3 {
 }
 
 /*CSS FOR LISTS*/
-ul li:before {
+.org-ul li:before {
   clear: none;
   font-size: 16px;
   line-height: 24px;
@@ -417,7 +375,7 @@ ul li:before {
   content: counter(li-counter);
   counter-increment: li-counter;
 }
-ul {
+.org-ul {
   list-style-type: none;
   line-height: 24px;
 }
@@ -467,6 +425,7 @@ content: "\2014 \2009";
 }
 
 /*TABLES GRRR*/
+
 table {
     border: 1px solid @scheme-color;;
     border-collapse: collapse;
@@ -487,3 +446,39 @@ math{
   font-size:  200%
 }
 
+/*Floating Nav Bar*/
+
+#stickyribbon {
+    	      width:800px;
+    	      background: @scheme-color;
+    	      border-radius: 5px;
+	      position:static;
+	      top:0
+	      margin:15px 0;
+}
+ 
+#stickyribbon ul {
+	      display:table;
+	      width:100%;
+              list-style-type: none;
+	      padding:0;
+	      margin:0;
+}
+ 
+#stickyribbon li {
+	      display:table-cell;
+	      font-size: 16px;
+              font-weight: bold;
+	      vertical-align:middle;
+	      padding:0 10px;
+}
+ 
+#stickyribbon li a {
+	      display:block;
+              color: #fff;
+              text-decoration: none;
+}
+ 
+#stickyribbon li a:hover {
+              color: @scheme-color-secondary;
+}
