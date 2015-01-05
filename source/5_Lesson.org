@@ -90,7 +90,7 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Use as a template
+* Soldering the PCB
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -100,12 +100,15 @@
 :END:
 - You've soldered enough PCBs together in the past that you should be able to construct this one with very little guidance.
 - Use the image below as a guide along with the labels on the PCB, and be sure to solder in your components the correct way around.
-[[file:img/analogueCirc18.png]]
-- Your switch, 
+[[file:img/board1.jpg]]
+- You'll need to thread the PP3 battery snap through the strain hole, so it doesn't get ripped from your board.
+file:img/board2.jpg
+- Your switch, LEDS and the LDR will need to be on flying leads with heatshrink protecting the solder joins.
+file:img/board3.jpg
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
 - Photograph both sides of your board.
-- You will be awarded a silver, gold or platinum badge depending upon the quality of your soldering and component placement.
+- You will be awarded a silver, gold or platinum badge depending upon the quality of your soldering, flying leads and component placement.
 
