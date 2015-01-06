@@ -105,6 +105,8 @@
 file:img/board2.jpg
 - Your switch, LEDS and the LDR will need to be on flying leads with heatshrink protecting the solder joins.
 file:img/board3.jpg
+- When it comes to soldering your LDR, this should be done last, as it needs threading through the top of the housing, prior to soldering.
+[[file:img/board4.jpg]]
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
