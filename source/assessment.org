@@ -1,21 +1,29 @@
 #+STARTUP:indent
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
-#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil  toc:nil
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil
 #+TITLE: Assessment
 #+AUTHOR: Marc Scott
 
 #+BEGIN_HTML
-<div class="github-fork-ribbon-wrapper left">
-        <div class="github-fork-ribbon">
-            <a href="https://github.com/MarcScott/7-CS-Internet">Fork me on GitHub</a>
-        </div>
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MarcScott/9-SC-Alarm">Fork me on GitHub</a>
     </div>
-    <div class="github-fork-ribbon-wrapper right-bottom">
-        <div class="github-fork-ribbon">
-            <a href="../index.html">Back to Index</a>
-        </div>
-    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="4_Lesson.html">Week4</a></li>
+      <li><a href="5_Lesson.html">Week5</a></li>
+      <li><a href="6_Lesson.html">Week6</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+    </ul>
+  </div>
 #+END_HTML
 
 * COMMENT Use as a template
@@ -93,4 +101,10 @@
 | <40>                                     | <40>                                     | <40>                                     | <40>                                     |
 | Criteria                                 | Silver                                   | Gold                                     | Platinum                                 |
 |------------------------------------------+------------------------------------------+------------------------------------------+------------------------------------------|
-|
+| Research                                 | Research alternative alarms that can be triggered by a sensor |                                          |                                          |
+| Analogue Sensors                         | Create a light sensing circuit           | Create a program that causes LEDs to respond to light levels | Create a program that records a light level and responds when that level is exceeded |
+| Circuit Design                           | Use a virtual voltmeter to diagnose problems | Create a complete Drawer Alarm circuit   |                                          |
+| PCB Design                               | Create a viable PCB                      | Create a PCB no larger than 100mm x 100mm with no jump wires | Create a PCB no larger than 50mm x 50mm with no jump wires |
+| Soldering and Construction               | Build a working drawer alarm             | Build a working drawer alarm with neat soldering | Build a working drawer alarm with neat soldering and tidy flying leads |
+| Programming                              | Program a drawer alarm to respond to light levels | Program a drawer alarm to respond to light levels and have an arming sequence | Program a drawer alarm to respond to light levels and include secret shutdown mode |
+

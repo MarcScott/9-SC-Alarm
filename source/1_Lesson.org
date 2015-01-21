@@ -108,7 +108,7 @@
 - Conduct some research to see if there are any similar alarms already available on the market.
 - The alarm needs to meet the following criteria
   1. Responds to changes in light
-  2. Responds with audiably (a buzzer for instance)
+  2. Responds with audibly (a buzzer for instance)
   3. Responds with visually (lights for instance)
   4. Has the ability to be armed and disarmed.
 ** Badge It - Silver

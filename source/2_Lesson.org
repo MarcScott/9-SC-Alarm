@@ -98,8 +98,8 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Like many of the projects you have completed in the past, this one will use a GENIE C08 microcontroller.
-- GENIE chips can recieve both analogue and digital signals.
+- Like many of the projects you have completed in the past, this one will use a GENIE C08 micro-controller.
+- GENIE chips can receive both analogue and digital signals.
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -122,15 +122,15 @@
 - So that we can simulate the circuit, we need to give the GENIE chip a program.
 - Use this loop.
 [[file:img/analogueCirc2.png]]
-- Microcontrollers can't detect resistances, they only read voltages. Let's have a look at the voltage drop between the input pin and ground for out circuit.
+- Micro-controllers can't detect resistances, they only read voltages. Let's have a look at the voltage drop between the input pin and ground for out circuit.
 - Recreate this circuit in CircuitWizard and have a look at the voltage differences that are generated when the light levels reaching the LDR are altered.
 file:img/analogueCirc4.gif
-- As you can see, altering the light levels at the LDR has a minimal effect on the voltage at the pin. While we could use a setup like this, we'd have a very unsensitive detector.
+- As you can see, altering the light levels at the LDR has a minimal effect on the voltage at the pin. While we could use a setup like this, we'd have a very insensitive detector.
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- There's a way to provide a larger voltage differntial at the pin, by adding a single resistor to the circuit.
+- There's a way to provide a larger voltage differential at the pin, by adding a single resistor to the circuit.
 - We're going to create something called a potential divider.
 - The visualisation below shows a standard set up for a potential divider. You can use the slider to alter the resistance of the LDR, and type in values for the resistor beneath it. Look at what happens to the voltage readings for V_out_.
 #+BEGIN_HTML
@@ -145,8 +145,8 @@ file:img/analogueCirc4.gif
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Now you know how to set up an analogue sensor on the GENIE chip, use CircuitWizard to creata a light sensor circuit.
-- We'll also need a switch connected to a digital input. You've done this before when you made the digitl die. Have a look at [[https://bournetoinvent.com/projects/8-SC-DigitalDie/pages/2_Lesson.html][this resource]] if you need reminding about digital inputs.
+- Now you know how to set up an analogue sensor on the GENIE chip, use CircuitWizard to create a light sensor circuit.
+- We'll also need a switch connected to a digital input. You've done this before when you made the digital die. Have a look at [[https://bournetoinvent.com/projects/8-SC-DigitalDie/pages/2_Lesson.html][this resource]] if you need reminding about digital inputs.
 - Once you've completed the inputs for the circuit, take a screenshot.
 * Setting up visual outputs
 :PROPERTIES:

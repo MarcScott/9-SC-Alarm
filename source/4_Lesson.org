@@ -121,7 +121,7 @@ file:img/analogueCirc13.png
 file:img/analogueCirc14.png
 - And we need to use small pads
 file:img/analogueCirc15.png
-- Lasstly uncheck the box, so that we can place components ourselves.
+- Lastly uncheck the box, so that we can place components ourselves.
 file:img/analogueCirc16.png
 - Click convert and you should have something that looks a little like this.
 file:img/analogueCirc17.png
@@ -133,5 +133,5 @@ file:img/analogueCirc17.png
 - It's now up to you to try and create the PCB.
 - You'll be awarded your badge depending on the size and neatness of your finished design.
 - A silver badge will be awarded if you create a viable PCB of any size, without using jump wires.
-- A gold badge will be awarded if you create a viable PCB no larger than 200mm by 200mm, without using jump wires.
-- A platinum badge will be awaded if you create a viable PCB no larger than 100mm by 100mm, without using jump wires.
+- A gold badge will be awarded if you create a viable PCB no larger than 100mm by 100mm, without using jump wires.
+- A platinum badge will be awarded if you create a viable PCB no larger than 50mm by 50mm, without using jump wires.
