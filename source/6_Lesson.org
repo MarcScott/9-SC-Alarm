@@ -108,6 +108,6 @@
   6. The light level is recorded.
   7. The alarm then waits for the light level to increase significantly.
   8. If the light level increases, the buzzer sounds and the LEDs flash on and off
-  9. Holding down the buzzer for a further three seconds will turn off the alarm.
+  9. Holding down the button for a further three seconds will turn off the alarm.
 
 

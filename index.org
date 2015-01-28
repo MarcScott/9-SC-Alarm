@@ -34,7 +34,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:pages/6_Lesson.html][Week 6 - ]]
+* [[file:pages/6_Lesson.html][Week 6 - Programming]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
