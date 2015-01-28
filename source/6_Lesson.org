@@ -90,67 +90,24 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Use as a template
+* Programming the drawer alarm
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Learn It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Some Code =PRINT HELLO=
-** Research It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: research
-:END:
-
-** Design It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-
-** Build It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: build
-:END:
-
-** Test It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: test
-:END:
-
-** Run It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-
-** Document It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: document
-:END:
-
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-
-** Program It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: program
-:END:
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
+- You're going to be given very little support with this task, but you will have a structured English algorithm to help you through.
+- Create a program for the microcontroller using a flowchart or GENIE BASIC, that will implement the following.
+  1. When the button is pushed, the green LED comes on, to indicate the alarm is ready
+  2. When the button is held down for three seconds
+  3. The Buzzer sounds for one second and the LEDs flash on and off three times.
+  4. The red LED remains on to indicate the buzzer is armed
+  5. The program then waits for 5 seconds (for you to put the alarm away)
+  6. The light level is recorded.
+  7. The alarm then waits for the light level to increase significantly.
+  8. If the light level increases, the buzzer sounds and the LEDs flash on and off
+  9. Holding down the buzzer for a further three seconds will turn off the alarm.
 
-** Save It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: save
-:END:
 
